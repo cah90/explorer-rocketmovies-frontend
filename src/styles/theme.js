@@ -3,6 +3,7 @@ export default {
 		DARK_900: "#0D0C0F",
 		DARK_800: "#1C1B1E",
 		DARK_600: "#262529",
+		DARK_500: "#312E38",
 
 		PINK: "#FF859B",
 
