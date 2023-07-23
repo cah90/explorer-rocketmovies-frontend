@@ -1,5 +1,5 @@
 import { Container } from "./styles.js"
 
-export function Button() {
-	return <Container></Container>
+export function Button({ title }) {
+	return <Container type="button">{title}</Container>
 }
