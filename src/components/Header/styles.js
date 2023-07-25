@@ -87,13 +87,13 @@ export const Container = styled.header`
 		.profile-info {
 			width: 12rem;
 		}
+	}
 
-		@media (min-width: 1000px) {
-			padding: 2.4rem 12.3rem;
+	@media (min-width: 1000px) {
+		padding: 2.4rem 12.3rem;
 
-			> input {
-				width: 50%;
-			}
+		> input {
+			width: 50%;
 		}
 	}
 `
