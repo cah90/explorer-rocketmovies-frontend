@@ -37,41 +37,6 @@ export const Container = styled.header`
 		color: ${(props) => props.theme.COLORS.GRAY_800};
 	}
 
-	> div img {
-		height: 6.4rem;
-		width: 6.4rem;
-
-		border-radius: 3.5rem;
-		border: 1px solid ${(props) => props.theme.COLORS.GRAY_900};
-	}
-
-	.profile {
-		display: flex;
-		align-items: center;
-		gap: 1rem;
-	}
-
-	.profile-info {
-		text-align: end;
-	}
-
-	.profile-info p {
-		font-size: 1.4rem;
-		font-weight: 700;
-
-		color: ${(props) => props.theme.COLORS.GRAY_200};
-	}
-
-	.profile-info button {
-		background: none;
-		border: none;
-
-		font-family: "Roboto Slab", serif;
-		font-size: 1.4rem;
-		font-weight: 400;
-		color: ${(props) => props.theme.COLORS.GRAY_800};
-	}
-
 	@media (min-width: 768px) {
 		gap: 4rem;
 
@@ -95,5 +60,40 @@ export const Container = styled.header`
 		> input {
 			width: 50%;
 		}
+	}
+`
+
+export const Profile = styled.div`
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	> img {
+		height: 6.4rem;
+		width: 6.4rem;
+
+		border-radius: 3.5rem;
+		border: 1px solid ${(props) => props.theme.COLORS.GRAY_900};
+	}
+
+	.profile-info {
+		text-align: end;
+	}
+
+	.profile-info p {
+		font-size: 1.4rem;
+		font-weight: 700;
+
+		color: ${(props) => props.theme.COLORS.GRAY_200};
+	}
+
+	.profile-info button {
+		background: none;
+		border: none;
+
+		font-family: "Roboto Slab", serif;
+		font-size: 1.4rem;
+		font-weight: 400;
+		color: ${(props) => props.theme.COLORS.GRAY_800};
 	}
 `

@@ -1,4 +1,4 @@
-import { Container } from "./styles"
+import { Container, Profile } from "./styles"
 
 export function Header() {
 	return (
@@ -12,13 +12,13 @@ export function Header() {
 				placeholder="Pesquisar pelo título"
 			/>
 
-			<div className="profile">
+			<Profile>
 				<div className="profile-info">
 					<p>Cássia Bernardo</p>
 					<button>sair</button>
 				</div>
 				<img src="https://github.com/cah90.png" alt="Imagem do usuário" />
-			</div>
+			</Profile>
 		</Container>
 	)
 }
