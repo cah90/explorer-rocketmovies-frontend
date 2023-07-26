@@ -10,6 +10,15 @@ export const Container = styled.div`
 			font-weight: 500;
 			margin: 2.4rem 0;
 		}
+
+		p {
+			font-size: 1.6rem;
+			font-weight: 400;
+			color: ${(props) => props.theme.COLORS.GRAY_200};
+			text-align: justify;
+
+			margin-bottom: 2rem;
+		}
 	}
 
 	@media (min-width: 768px) {
@@ -36,7 +45,6 @@ export const Info = styled.div`
 	.user-info,
 	.data-info {
 		display: flex;
-		align-items: center;
 		gap: 0.8rem;
 
 		color: ${(props) => props.theme.COLORS.GRAY_200};
