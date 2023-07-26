@@ -2,7 +2,7 @@ import { styled } from "styled-components"
 
 export const Container = styled.div`
 	> main {
-		padding: 4rem;
+		padding: 2rem;
 
 		h2 {
 			color: ${(props) => props.theme.COLORS.GRAY_200};
@@ -57,4 +57,10 @@ export const Info = styled.div`
 	.data-info svg {
 		color: ${(props) => props.theme.COLORS.PINK};
 	}
+`
+export const Tags = styled.div`
+	display: flex;
+	gap: 0.8rem;
+
+	margin: 4rem 0;
 `

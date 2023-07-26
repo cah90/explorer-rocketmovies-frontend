@@ -1,10 +1,11 @@
-import { Container, Title, Info } from "./styles"
+import { Container, Title, Info, Tags } from "./styles"
 
 import { PiClock } from "react-icons/pi"
 
 import { Header } from "../../components/Header"
 import { ButtonText } from "../../components/ButtonText"
 import { Rating } from "../../components/Rating"
+import { Tag } from "../../components/Tag"
 
 export default function Details() {
 	return (
@@ -29,6 +30,12 @@ export default function Details() {
 							<p>23/05/22 às 08:00</p>
 						</div>
 					</Info>
+
+					<Tags>
+						<Tag title="Ficção Cientifica" />
+						<Tag title="Drama" />
+						<Tag title="Família" />
+					</Tags>
 				</main>
 			</Container>
 		</>
