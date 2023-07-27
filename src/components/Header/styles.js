@@ -5,7 +5,10 @@ export const Container = styled.header`
 
 	background: ${(props) => props.theme.COLORS.DARK_800};
 	border-bottom: 1px solid ${(props) => props.theme.COLORS.GRAY_900};
+	margin-bottom: 4rem;
+`
 
+export const Content = styled.div`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -38,9 +41,12 @@ export const Container = styled.header`
 	}
 
 	@media (min-width: 768px) {
+		max-width: 80%;
+		margin: auto;
+
 		gap: 4rem;
 
-		padding: 2.4rem 4rem;
+		/* padding: 2.4rem 4rem; */
 
 		> h1 {
 			display: inline-block;
@@ -55,7 +61,7 @@ export const Container = styled.header`
 	}
 
 	@media (min-width: 1000px) {
-		padding: 2.4rem 12.3rem;
+		/* padding: 2.4rem 12.3rem; */
 
 		> input {
 			width: 50%;

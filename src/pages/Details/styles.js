@@ -3,31 +3,36 @@ import { styled } from "styled-components"
 export const Container = styled.div`
 	> main {
 		padding: 2rem;
-
-		h2 {
-			color: ${(props) => props.theme.COLORS.GRAY_200};
-			font-size: 2.6rem;
-			font-weight: 500;
-			margin: 2.4rem 0;
-		}
-
-		p {
-			font-size: 1.6rem;
-			font-weight: 400;
-			color: ${(props) => props.theme.COLORS.GRAY_200};
-			text-align: justify;
-
-			margin-bottom: 2rem;
-		}
 	}
 
 	@media (min-width: 768px) {
 		> main {
-			padding: 4rem 12.3rem;
+			max-width: 80%;
+			margin: auto;
+		}
+	}
+`
 
-			h2 {
-				font-size: 3.6rem;
-			}
+export const Content = styled.div`
+	h2 {
+		color: ${(props) => props.theme.COLORS.GRAY_200};
+		font-size: 2.6rem;
+		font-weight: 500;
+		margin: 2.4rem 0;
+	}
+
+	p {
+		font-size: 1.6rem;
+		font-weight: 400;
+		color: ${(props) => props.theme.COLORS.GRAY_200};
+		text-align: justify;
+
+		margin-bottom: 2rem;
+	}
+
+	@media (min-width: 768px) {
+		h2 {
+			font-size: 3.6rem;
 		}
 	}
 `

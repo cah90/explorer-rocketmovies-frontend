@@ -20,6 +20,31 @@ body {
   -webkit-font-smoothing: antialiased; //Smooth the font
 }
 
+main {
+  height: 70vh;
+	overflow-y: scroll;
+
+
+}
+
+::-webkit-scrollbar {
+  width: .8rem;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: ${(props) => props.theme.COLORS.PINK};
+  border-radius: 8px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f34767;
+}
+
+
+
+
 a {
   text-decoration: none;
 }
