@@ -4,13 +4,6 @@ export const Container = styled.div`
 	> main {
 		padding: 2rem;
 	}
-
-	@media (min-width: 768px) {
-		> main {
-			max-width: 80%;
-			margin: auto;
-		}
-	}
 `
 
 export const Content = styled.div`
@@ -71,6 +64,7 @@ export const Info = styled.div`
 		color: ${(props) => props.theme.COLORS.PINK};
 	}
 `
+
 export const Tags = styled.div`
 	display: flex;
 	gap: 0.8rem;

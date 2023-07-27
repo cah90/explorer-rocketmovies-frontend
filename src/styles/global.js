@@ -23,8 +23,6 @@ body {
 main {
   height: 70vh;
 	overflow-y: scroll;
-
-
 }
 
 ::-webkit-scrollbar {
@@ -42,7 +40,12 @@ main {
   background: #f34767;
 }
 
-
+@media (min-width: 768px) {
+  main { 
+    max-width: 80%;
+    margin: auto;
+  }
+}
 
 
 a {
