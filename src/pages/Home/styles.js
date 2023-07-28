@@ -10,6 +10,15 @@ export const Container = styled.div`
 
 	> main {
 		padding: 0 2rem;
+		text-align: justify;
+	}
+
+	.card {
+		background-color: rgba(255, 133, 155, 0.05);
+		padding: 3.2rem;
+		margin-bottom: 2.4rem;
+
+		border-radius: 1.6rem;
 	}
 
 	@media (min-width: 768px) {
@@ -23,6 +32,11 @@ export const Title = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-`
+	padding: 0 2rem;
+	margin-bottom: 4rem;
 
-export const Content = styled.div``
+	@media (min-width: 768px) {
+		width: 80%;
+		margin: 4rem auto;
+	}
+`

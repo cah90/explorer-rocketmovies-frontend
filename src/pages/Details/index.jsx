@@ -18,7 +18,7 @@ export default function Details() {
 
 						<Title>
 							<h2>Interestellar</h2>
-							<Rating grade={4} isBigSize={false} />
+							<Rating grade={4} />
 						</Title>
 
 						<Info>

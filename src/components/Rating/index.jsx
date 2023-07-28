@@ -1,7 +1,7 @@
 import { Container } from "./styles"
 import { LiaStar, LiaStarSolid } from "react-icons/lia"
 
-export function Rating({ grade, isBigSize }) {
+export function Rating({ grade }) {
 	let stars = []
 
 	for (let cont = 1; cont <= 5; cont++) {
@@ -11,5 +11,5 @@ export function Rating({ grade, isBigSize }) {
 			stars.push(<LiaStar key={cont} />)
 		}
 	}
-	return <Container isBigSize={isBigSize}>{stars}</Container>
+	return <Container>{stars}</Container>
 }
