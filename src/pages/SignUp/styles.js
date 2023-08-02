@@ -35,11 +35,12 @@ export const Form = styled.div`
 		color: ${(props) => props.theme.COLORS.GRAY_300};
 	}
 
-	> a {
-		margin-top: 4.2rem;
+	.button {
 		color: ${(props) => props.theme.COLORS.PINK};
 
 		text-align: center;
+
+		margin: 4.2rem auto 0;
 	}
 `
 
