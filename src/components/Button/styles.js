@@ -7,6 +7,7 @@ export const Container = styled.button`
 	border-radius: 10px;
 
 	padding: 1.4rem 2rem;
+	width: 100%;
 
 	font-size: 1.4rem;
 	font-family: "Roboto Slab", serif;
