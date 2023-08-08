@@ -36,11 +36,17 @@ export const Form = styled.form`
 	}
 
 	.button {
-		color: ${(props) => props.theme.COLORS.PINK};
-
+		display: flex;
+		align-items: center;
+		gap: 0.8rem;
 		text-align: center;
 
 		margin: 4.2rem auto 0;
+
+		a,
+		svg {
+			color: ${(props) => props.theme.COLORS.PINK};
+		}
 	}
 `
 

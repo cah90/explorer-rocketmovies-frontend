@@ -1,5 +1,6 @@
 import { Container, Form, Background } from "./styles"
 import { FiMail, FiLock, FiUser } from "react-icons/fi"
+import { BsArrowLeft } from "react-icons/bs"
 
 import { Link } from "react-router-dom"
 
@@ -24,8 +25,13 @@ export function SignUp() {
 
 				<Button title="Cadastrar" />
 
-				<div className="button">
+				{/* <div className="button">
 					<ButtonText title={"Voltar para o login"} />
+				</div> */}
+
+				<div className="button">
+					<BsArrowLeft />
+					<Link to="/"> Voltar para o login </Link>
 				</div>
 			</Form>
 
