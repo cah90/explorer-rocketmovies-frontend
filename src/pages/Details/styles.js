@@ -40,6 +40,10 @@ export const Info = styled.div`
 	display: flex;
 	gap: 0.8rem;
 
+	p {
+		font-size: 1.4rem;
+	}
+
 	.user-info,
 	.data-info {
 		display: flex;
@@ -62,6 +66,12 @@ export const Info = styled.div`
 
 	.data-info svg {
 		color: ${(props) => props.theme.COLORS.PINK};
+	}
+
+	@media (min-width: 768px) {
+		p {
+			font-size: 1.6rem;
+		}
 	}
 `
 
