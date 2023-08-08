@@ -3,18 +3,18 @@ import styled from "styled-components"
 export const Container = styled.div`
 	display: flex;
 	align-items: center;
+	gap: 1.6rem;
 
-	background-color: ${({ theme, isNew }) =>
-		isNew ? "transparent" : theme.COLORS.DARK_600};
+	background-color: ${({ theme, isnew }) =>
+		isnew ? "transparent" : theme.COLORS.DARK_600};
 
 	color: ${({ theme }) => theme.COLORS.WHITE};
 
-	border: ${({ theme, isNew }) =>
-		isNew ? `1px dashed ${theme.COLORS.GRAY_800}` : "none"};
+	border: ${({ theme, isnew }) =>
+		isnew ? `1px dashed ${theme.COLORS.GRAY_800}` : "none"};
 
-	margin-bottom: 0.8rem;
+	padding: 1.6rem;
 	border-radius: 1rem;
-	padding-right: 1.6rem;
 
 	> button {
 		border: none;
@@ -30,10 +30,7 @@ export const Container = styled.div`
 	}
 
 	> input {
-		height: 5.6rem;
 		width: 100%;
-
-		padding: 1.2rem;
 
 		color: ${({ theme }) => theme.COLORS.WHITE};
 		background: transparent;

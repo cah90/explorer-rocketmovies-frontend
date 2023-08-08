@@ -51,7 +51,12 @@ export const Form = styled.form`
 	.buttons {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1rem;
+		gap: 2rem;
+
+		button:first-child {
+			background-color: ${({ theme }) => theme.COLORS.DARK_900};
+			color: ${({ theme }) => theme.COLORS.PINK};
+		}
 	}
 
 	@media (min-width: 768px) {
@@ -61,11 +66,10 @@ export const Form = styled.form`
 
 		.buttons {
 			flex-wrap: nowrap;
+			gap: 4rem;
 		}
-	}
 
-	.movieInfo {
-		@media (min-width: 768px) {
+		.movieInfo {
 			display: flex;
 			gap: 4rem;
 

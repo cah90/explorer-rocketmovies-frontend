@@ -2,17 +2,17 @@ import { Container } from "./styles"
 
 import { FiPlus, FiX } from "react-icons/fi"
 
-export function MovieTag({ isNew, value, onClick, ...rest }) {
+export function MovieTag({ isnew, value, onClick, ...rest }) {
 	return (
-		<Container isNew={isNew}>
-			<input type="text" value={value} readOnly={!isNew} {...rest} />
+		<Container isnew={isnew}>
+			<input type="text" value={value} readOnly={!isnew} {...rest} />
 
 			<button
 				type="button"
 				onClick={onClick}
-				className={isNew ? "button-add" : "button-delete"}
+				className={isnew ? "button-add" : "button-delete"}
 			>
-				{isNew ? <FiPlus /> : <FiX />}
+				{isnew ? <FiPlus /> : <FiX />}
 			</button>
 		</Container>
 	)

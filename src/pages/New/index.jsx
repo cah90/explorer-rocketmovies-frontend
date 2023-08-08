@@ -30,7 +30,7 @@ export function New() {
 						<h2>Marcadores</h2>
 						<div className="movie-tag">
 							<MovieTag value="Action" />
-							<MovieTag isNew placeholder="Nova tag" />
+							<MovieTag isnew="true" placeholder="Novo marcador" />
 						</div>
 
 						<div className="buttons">
