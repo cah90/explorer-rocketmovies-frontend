@@ -35,8 +35,16 @@ export const Title = styled.div`
 	padding: 0 2rem;
 	margin-bottom: 4rem;
 
+	button {
+		width: 18rem;
+	}
+
 	@media (min-width: 768px) {
 		width: 80%;
 		margin: 4rem auto;
+
+		button {
+			width: 22rem;
+		}
 	}
 `

@@ -18,6 +18,8 @@ body {
   font-size: 1.6rem;
   font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased; //Smooth the font
+
+
 }
 
 main {

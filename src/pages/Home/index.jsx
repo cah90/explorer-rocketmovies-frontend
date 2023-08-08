@@ -1,18 +1,19 @@
 import { Container, Title } from "./styles"
-import { AiOutlinePlus } from "react-icons/ai"
+import { FiPlus } from "react-icons/fi"
 
 import { Header } from "../../components/Header"
 import { Button } from "../../components/Button"
 import { Movie } from "../../components/Movie"
 
-export default function Home() {
+export function Home() {
 	return (
 		<Container>
 			<Header />
 
 			<Title>
 				<h2>Meus filmes</h2>
-				<Button title={"Adicionar filme"} icon={<AiOutlinePlus />} />
+
+				<Button title={"Adicionar filme"} icon={FiPlus} />
 			</Title>
 			<main>
 				<div className="card">

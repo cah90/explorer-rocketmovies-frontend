@@ -7,7 +7,7 @@ import { ButtonText } from "../../components/ButtonText"
 import { Rating } from "../../components/Rating"
 import { Tag } from "../../components/Tag"
 
-export default function Details() {
+export function Details() {
 	return (
 		<>
 			<Container>
